@@ -1,0 +1,26 @@
+{
+  "name": "website",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "docs:dev": "cd docs && vuepress dev",
+    "docs:build": "cd docs && vuepress build",
+    "docs:publish": "cd docs && ./deploy.sh",
+    "start": "cd docs && vuepress dev"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gaotang/workwebsite.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gaotang/website/issues"
+  },
+  "homepage": "https://github.com/gaotang/workwebsite#readme",
+  "devDependencies": {
+    "vuepress": "^0.10.1"
+  }
+}
